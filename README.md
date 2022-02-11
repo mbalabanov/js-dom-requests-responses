@@ -131,7 +131,7 @@ Make GET and POST requests to the Name API endpoint
 
 1. Use the Fetch API from your browser console
 2. Use the Axios API from a nodejs script
-3. Use your browser directl - can it make both kinds of requests?
+3. Use your browser directly - can it make both kinds of requests?
 4. Use a command line app like `curl`, `httpie`
 5. Use an application like insomnia
 
@@ -173,7 +173,7 @@ curl localhost:3000/api/name
 const opts = {
   method: "POST",
   headers: { "Content-Type": "application/json" },
-  body: "Ed"
+  body: JSON.stringify({name: "Ed"})
 }
 fetch(`http://localhost:3000/api/name`, opts)
   .then(res => res.json())
