@@ -1,0 +1,32 @@
+### GET /api/name
+
+GET http://localhost:3000/api/name
+
+###
+
+POST http://localhost:3000/api/name
+Content-Type: application/json
+
+{
+    "name": "Juhu"
+}
+
+
+### GET /name - 404 wrong endpoint
+
+GET http://localhost:3000/catnames
+
+
+### GET /name - Returns webpage with form
+
+GET http://localhost:3000/name
+
+
+### POST to /name instead of /api/name - Returns 302 response 
+
+POST http://localhost:3000/name
+Content-Type: application/json
+
+{
+    "name": "Top Cat!"
+}
