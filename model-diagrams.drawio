@@ -1,114 +1,227 @@
 <mxfile host="65bd71144e">
     <diagram id="ww7F4tC7xTnA9CITdiYy" name="Page-1">
-        <mxGraphModel dx="1421" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1706" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="4" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="2" target="3">
+                <mxCell id="4" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="2" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="GET request to &lt;b&gt;/api/name&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4">
+                <mxCell id="5" value="GET request to &lt;b&gt;/api/name&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4" vertex="1" connectable="0">
                     <mxGeometry x="-0.3958" y="1" relative="1" as="geometry">
                         <mxPoint x="47" y="-14" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="2" value="Client&lt;br&gt;(Browser or REST Client)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="Client&lt;br&gt;(REST Client)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="80" y="140" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="3" target="2">
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="3" target="2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="JSON response with &lt;b&gt;name&lt;/b&gt; in it" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6">
+                <mxCell id="7" value="JSON response with &lt;b&gt;name&lt;/b&gt; in it" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6" vertex="1" connectable="0">
                     <mxGeometry x="0.0208" y="2" relative="1" as="geometry">
                         <mxPoint y="13" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="Server&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;(localhost/3000)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="3" value="Server&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;(localhost/3000)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="440" y="140" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Successful http GET Requests" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                <mxCell id="8" value="Successful http GET Requests" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
                     <mxGeometry x="80" y="90" width="210" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="11" target="14">
+                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="11" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="POST request to &lt;b&gt;/api/name&lt;/b&gt; with name&lt;br&gt;as JSON object in header" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9">
+                <mxCell id="10" value="POST request to &lt;b&gt;/api/name&lt;/b&gt; with name&lt;br&gt;as JSON object in header" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9" vertex="1" connectable="0">
                     <mxGeometry x="-0.3958" y="1" relative="1" as="geometry">
-                        <mxPoint x="47" y="-14" as="offset"/>
+                        <mxPoint x="57" y="-14" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="11" value="Client&lt;br&gt;(REST Client)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="80" y="340" width="120" height="60" as="geometry"/>
+                <mxCell id="11" value="Client&lt;br&gt;(REST Client)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="330" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="14" target="11">
+                <mxCell id="12" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="14" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="Sends success response &lt;b&gt;200&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="12">
+                <mxCell id="13" value="Sends success response &lt;b&gt;200&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="12" vertex="1" connectable="0">
                     <mxGeometry x="0.0208" y="2" relative="1" as="geometry">
-                        <mxPoint y="13" as="offset"/>
+                        <mxPoint x="-8" y="13" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="Server&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;(localhost/3000)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="340" width="120" height="60" as="geometry"/>
+                <mxCell id="14" value="Server&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;(localhost/3000)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="330" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="Successful http POST Requests" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-                    <mxGeometry x="80" y="290" width="200" height="30" as="geometry"/>
+                <mxCell id="15" value="Successful http POST Requests" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="80" y="280" width="200" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="Server processes and creates new data entry" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="570" y="345" width="110" height="50" as="geometry"/>
+                <mxCell id="16" value="Server processes and creates new data entry" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="335" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="19" target="22">
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="30" target="33" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="GET request to&amp;nbsp;&lt;b&gt;/api/catnames&lt;br&gt;&lt;/b&gt;(wrong endpoint)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="17">
+                <mxCell id="29" value="GET request to &lt;b&gt;/name&lt;/b&gt; (not /api/name)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="28" vertex="1" connectable="0">
                     <mxGeometry x="-0.3958" y="1" relative="1" as="geometry">
-                        <mxPoint x="32" y="-14" as="offset"/>
+                        <mxPoint x="52" y="-14" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="Client&lt;br&gt;(Browser or REST Client)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="80" y="740" width="120" height="60" as="geometry"/>
+                <mxCell id="30" value="Client&lt;br&gt;(REST Client)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="1130" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="22" target="19">
+                <mxCell id="31" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="33" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="Sends success response 404&lt;br&gt;&quot;Cannot GET /catnames&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="20">
-                    <mxGeometry x="0.0208" y="2" relative="1" as="geometry">
-                        <mxPoint y="13" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="22" value="Server&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;(localhost/3000)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="740" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="23" value="Failed http GET Requests (wrong endpoint)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-                    <mxGeometry x="80" y="690" width="270" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="28" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="30" target="33">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="29" value="GET request to &lt;b&gt;/name&lt;/b&gt; (not /api/name)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="28">
-                    <mxGeometry x="-0.3958" y="1" relative="1" as="geometry">
-                        <mxPoint x="47" y="-14" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="30" value="Client&lt;br&gt;(REST Client)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="80" y="540" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="31" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="33" target="30">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="32" value="Provides an HTML form&lt;br&gt;with Axios integrated to try&lt;br&gt;GET and POST in a UI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="31">
+                <mxCell id="32" value="Provides an HTML form&lt;br&gt;with Axios integrated to try&lt;br&gt;GET and POST in a UI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="31" vertex="1" connectable="0">
                     <mxGeometry x="0.0208" y="2" relative="1" as="geometry">
                         <mxPoint y="23" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="33" value="Server&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;(localhost/3000)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="540" width="120" height="60" as="geometry"/>
+                <mxCell id="33" value="Server&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;(localhost/3000)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="1130" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="http GET Requests from Non-API endpoint" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-                    <mxGeometry x="80" y="490" width="250" height="30" as="geometry"/>
+                <mxCell id="34" value="http GET Requests from Non-API endpoint" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="80" y="1080" width="250" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="Client Server Communication using REST" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                <mxCell id="36" value="Client Server Communication using REST" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
                     <mxGeometry x="80" y="40" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="1" style="ellipse;whiteSpace=wrap;html=1;spacing=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="230" y="130" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="2" style="ellipse;whiteSpace=wrap;html=1;spacing=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="404" y="190" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="1" style="ellipse;whiteSpace=wrap;html=1;spacing=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="209" y="319" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="2" style="ellipse;whiteSpace=wrap;html=1;spacing=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="570" y="315" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="3" style="ellipse;whiteSpace=wrap;html=1;spacing=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="394" y="380" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="1" style="ellipse;whiteSpace=wrap;html=1;spacing=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="209" y="1120" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="2" style="ellipse;whiteSpace=wrap;html=1;spacing=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="394" y="1190" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="51" target="54">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="GET request to&amp;nbsp;&lt;b&gt;/api/catnames&lt;br&gt;&lt;/b&gt;(wrong endpoint)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="49">
+                    <mxGeometry x="-0.3958" y="1" relative="1" as="geometry">
+                        <mxPoint x="32" y="-14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="Client&lt;br&gt;(REST Client)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="1330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="54" target="51">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Sends success response &lt;b&gt;404&lt;/b&gt;&lt;br&gt;&quot;Cannot GET /catnames&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="52">
+                    <mxGeometry x="0.0208" y="2" relative="1" as="geometry">
+                        <mxPoint y="13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="Server&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;(localhost/3000)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="1330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Failed http GET Requests (wrong endpoint)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="80" y="1280" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="1" style="ellipse;whiteSpace=wrap;html=1;spacing=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="205" y="1320" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="2" style="ellipse;whiteSpace=wrap;html=1;spacing=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="394" y="1380" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="60" target="63">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="GET request to &lt;b&gt;/name&lt;/b&gt; (not /api/name)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="58">
+                    <mxGeometry x="-0.3958" y="1" relative="1" as="geometry">
+                        <mxPoint x="52" y="-14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="60" target="68">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="620" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="97" y="945"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78" value="Get Axios JS Library" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="77">
+                    <mxGeometry x="0.1613" y="3" relative="1" as="geometry">
+                        <mxPoint x="43" y="18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="86" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.881;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="60" target="63">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="140" y="870"/>
+                            <mxPoint x="546" y="870"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" value="Submit form with name (GET)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="86">
+                    <mxGeometry x="-0.0052" y="2" relative="1" as="geometry">
+                        <mxPoint x="-115" y="-18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="Client&lt;br&gt;(Browse)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="63" target="60">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="Provides an HTML form&lt;br&gt;with Axios integrated to try&lt;br&gt;GET and POST in a UI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="61">
+                    <mxGeometry x="0.0208" y="2" relative="1" as="geometry">
+                        <mxPoint y="23" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="Server&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;(localhost/3000)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Inital GET Requests to load page from /name" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="80" y="480" width="330" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="1" style="ellipse;whiteSpace=wrap;html=1;spacing=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="209" y="520" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="2" style="ellipse;whiteSpace=wrap;html=1;spacing=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="394" y="590" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="Browser renders&lt;br&gt;the page and finds&lt;br&gt;reference to Axios" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="70" y="547" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" target="60">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="920" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="440" y="920"/>
+                            <mxPoint x="120" y="920"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="82" value="Delivers Axios JS Library" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="81">
+                    <mxGeometry x="-0.4053" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-47" y="-19" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="CDN of&lt;br&gt;Axios JS&lt;br&gt;Library" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="900" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="4" style="ellipse;whiteSpace=wrap;html=1;spacing=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="110" y="950" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="3" style="ellipse;whiteSpace=wrap;html=1;spacing=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="50" y="571" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="5" style="ellipse;whiteSpace=wrap;html=1;spacing=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="270" y="892" width="20" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
